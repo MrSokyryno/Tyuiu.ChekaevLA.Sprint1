@@ -24,4 +24,19 @@
     <Project Path="Tyuiu.ChekaevLA.Sprint1.Task4.V18.Test/Tyuiu.ChekaevLA.Sprint1.Task4.V18.Test.csproj" Id="a4b37a14-3e08-45c1-8beb-3126d5095a8e" />
     <Project Path="Tyuiu.ChekaevLA.Sprint1.Task4.V18/Tyuiu.ChekaevLA.Sprint1.Task4.V18.csproj" Id="da06735d-56a3-455d-afda-f2dc178e14b0" />
   </Folder>
+  <Folder Name="/Tyuiu.ChekaevLA.Sprint1.Task5.V2/">
+    <Project Path="Tyuiu.ChekaevLA.Sprint1.Task5.V2.Lib/Tyuiu.ChekaevLA.Sprint1.Task5.V2.Lib.csproj" Id="a1da4344-3ac7-4dc0-a872-98fb310dde46" />
+    <Project Path="Tyuiu.ChekaevLA.Sprint1.Task5.V2.Test/Tyuiu.ChekaevLA.Sprint1.Task5.V2.Test.csproj" Id="950542d1-6636-47a0-aff1-968c79ce8a2c" />
+    <Project Path="Tyuiu.ChekaevLA.Sprint1.Task5.V2/Tyuiu.ChekaevLA.Sprint1.Task5.V2.csproj" Id="fb20cc51-572e-4c61-b03b-a5ddbb5a2a1e" />
+  </Folder>
+  <Folder Name="/Tyuiu.ChekaevLA.Sprint1.Task6.V10/">
+    <Project Path="Tyuiu.ChekaevLA.Sprint1.Task6.V10.Lib/Tyuiu.ChekaevLA.Sprint1.Task6.V10.Lib.csproj" Id="488cadb1-4004-4d0b-ab2a-058c09963fbb" />
+    <Project Path="Tyuiu.ChekaevLA.Sprint1.Task6.V10.Test/Tyuiu.ChekaevLA.Sprint1.Task6.V10.Test.csproj" Id="8088e106-c1dc-45e5-8bc2-b282ce3a0673" />
+    <Project Path="Tyuiu.ChekaevLA.Sprint1.Task6.V10/Tyuiu.ChekaevLA.Sprint1.Task6.V10.csproj" Id="7daed336-560b-4b16-8aa3-120ad84a9fbc" />
+  </Folder>
+  <Folder Name="/Tyuiu.ChekaevLA.Sprint1.Task7.V25/">
+    <Project Path="Tyuiu.ChekaevLA.Sprint1.Task7.V25.Lib/Tyuiu.ChekaevLA.Sprint1.Task7.V25.Lib.csproj" Id="a5aabda0-aa78-497c-beca-a273fb4738a9" />
+    <Project Path="Tyuiu.ChekaevLA.Sprint1.Task7.V25.Test/Tyuiu.ChekaevLA.Sprint1.Task7.V25.Test.csproj" Id="1b828505-f3e3-402a-9d2f-6531117e6f28" />
+    <Project Path="Tyuiu.ChekaevLA.Sprint1.Task7.V25/Tyuiu.ChekaevLA.Sprint1.Task7.V25.csproj" Id="f29bd47e-cf3b-4b37-b9a8-fc4702b63d83" />
+  </Folder>
 </Solution>

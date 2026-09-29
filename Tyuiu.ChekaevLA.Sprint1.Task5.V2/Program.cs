@@ -1,6 +1,6 @@
-﻿using Tyuiu.ChekaevLA.Sprint1.Task3.V16.Lib;
+﻿using Tyuiu.ChekaevLA.Sprint1.Task5.V2.Lib;
 
-namespace Tyuiu.ChekaevLA.Sprint1.Task3.V16
+namespace Tyuiu.ChekaevLA.Sprint1.Task5.V2
 {
     internal class Program
     {
@@ -11,30 +11,29 @@ namespace Tyuiu.ChekaevLA.Sprint1.Task3.V16
             Console.Title = "Спринт 1 | Выполнил: Чекаев Л. А.| АСОИУб-1-26";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
-            Console.WriteLine("* Задание #3                                                              *");
-            Console.WriteLine("* Вариант #16                                                             *");
+            Console.WriteLine("* Тема: Преобразование типов и класс Convert                              *");
+            Console.WriteLine("* Задание #5                                                              *");
+            Console.WriteLine("* Вариант #2                                                              *");
             Console.WriteLine("* Выполнил: Чекаев Л. А.| АСОИУб-1-26                                     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая вычисляет и печатает коффициент приведенного*");
-            Console.WriteLine("* квадратного уравнения, корнями которого являются введенные пользователем*");
-            Console.WriteLine("* два вещественных числа                                                  *");
+            Console.WriteLine("* Написать программу, которая решает следующую задачу:                    *");
+            Console.WriteLine("* Дано значение температуры в градусах Фаренгейта. Определить значение    *");
+            Console.WriteLine("* этой же температуры в градусах Цельсия. Ответ привести к целому с       *");
+            Console.WriteLine("* помощью класса Convert.                                                 *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double x, y;
-            Console.WriteLine("Введите первый корень:");
-            x = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите второй корень:");
-            y = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Введите температуру по фаренгейту: ");
+            double X;
+            X = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(dataService.CoeffOfQuadraticEquation(x, y));
+            Console.WriteLine(dataService.FahrenheitToСelsius(X));
             Console.ReadKey();
         }
     }

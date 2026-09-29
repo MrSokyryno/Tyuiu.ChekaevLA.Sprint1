@@ -11,7 +11,7 @@ namespace Tyuiu.ChekaevLA.Sprint1.Task4.V18
             Console.Title = "Спринт 1 | Выполнил: Чекаев Л. А.| АСОИУб-1-26";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
+            Console.WriteLine("* Тема: Class Math                                                        *");
             Console.WriteLine("* Задание #4                                                              *");
             Console.WriteLine("* Вариант #18                                                             *");
             Console.WriteLine("* Выполнил: Чекаев Л. А.| АСОИУб-1-26                                     *");
@@ -37,6 +37,7 @@ namespace Tyuiu.ChekaevLA.Sprint1.Task4.V18
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine(dataService.Calculate(X, Y));
+            Console.ReadKey();
         }
     }
 }
